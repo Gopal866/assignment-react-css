@@ -1,23 +1,21 @@
-import { ConnectedRouter } from 'connected-react-router';
-import { configureStore, getHistory } from 'modules/store';
 import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import RoutesComponent from 'view/shared/routes/RoutesComponent';
-import { LocaleProvider } from 'antd';
-import { getAntdLanguage } from 'i18n';
+import logo from './logo.svg';
+import './App.css';
 
-const store = configureStore();
-
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
-      <LocaleProvider locale={getAntdLanguage()}>
-        <Provider store={store}>
-          <ConnectedRouter history={getHistory()}>
-            <RoutesComponent />
-          </ConnectedRouter>
-        </Provider>
-      </LocaleProvider>
+      <div className="App">
+        <div className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h2>Welcome to React</h2>
+        </div>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+      </div>
     );
   }
 }
+
+export default App;
