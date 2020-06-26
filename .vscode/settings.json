@@ -10,5 +10,10 @@
             // only from the root of
             // your workspace 
         }
-    }
+    },
+    "cSpell.words": [
+        "Dropdowns",
+        "googleplay",
+        "worktern"
+    ]
 }

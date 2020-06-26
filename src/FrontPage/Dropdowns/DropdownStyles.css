@@ -1,0 +1,26 @@
+.topStyles {
+    top: 52px !important;
+    width: 220px !important;
+}
+.subMenuStyles {
+    width: 200px !important;
+}
+.topStyles :hover {
+    color: #0e0d0d;
+}
+.dropdownLink {
+    color: #767676;
+    text-transform: capitalize;
+    font: 400 16px/16px 'Poppins';
+    font-family: unset;
+}
+.dropdownLinkTag :hover{
+    color: #eb1515 !important;
+}
+.userDesignation {
+    font-size: 8px;
+    color: #767676;
+    text-transform: capitalize;
+    font: 400 16px/16px 'Poppins';
+    font-family: unset;
+}
